@@ -51,9 +51,9 @@ $siteTitle = 'PHP4chan';
                     </tr>
                 </table>
             </form>
-        </div></center>
+        </div>
         <?php
             echo file_get_contents("posts.html");
         ?>
     </body>
-</html>
+</html></center>
