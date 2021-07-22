@@ -1,36 +1,57 @@
+<?php
+$siteTitle = 'PHP4chan';
+?>
+<title><?php echo $siteTitle; ?> </title>
+
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="header">
-            <h1>PHP 4chan clone</h1>
-        </div>
-        <div id="postBox">
+
+      <center>      <h1><?php echo $siteTitle; ?> </h1>
+
+
             <form action="shout.php" method="post" enctype="multipart/form-data">
                 <table>
                     <tr>
                         <td>Name:</td>
                         <td>
                             <input type="text" name="name" value="Anonymous">
-                            <input type="submit" value="Post">
+                        </td>
+                    </tr>
+                                            <td>E-Mail:</td>
+                        <td>
+                            <input type="text" name="name" value="">
+                        </td>
+                    </tr>
+                                                                <td>Subject:</td>
+                        <td>
+                            <input type="text" name="name" value="">
+                                                        <input type="submit" value="Post">
+
                         </td>
                     </tr>
                     <tr>
-                        <td>Post:</td>
+                        <td>Message:</td>
                         <td>
                             <textarea name="post"></textarea>
                         </td>
                     </tr>
                     <tr>
-                        <td>Upload:</td>
+                        <td>File:</td>
                         <td>
                             <input type="file" name="fileToUpload" id="fileToUpload">
                         </td>
                     </tr>
+                                                                <td>Password:</td>
+                        <td>
+                            <input type="password" name="name" value="">
+                        </td>
+                    </tr>
                 </table>
             </form>
-        </div>
+        </div></center>
         <?php
             echo file_get_contents("posts.html");
         ?>
