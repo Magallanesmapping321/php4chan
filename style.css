@@ -21,7 +21,7 @@ body {
     font-size: 10pt;
     padding:0px;
     margin:0px;
-    background: #ffe;
+    background: #ffe url("fade.png") top center repeat-x;
 }
 .postName {
     color: #117743;
