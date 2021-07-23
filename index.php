@@ -1,5 +1,9 @@
 <?php
 $siteTitle = 'PHP4chan';
+/* site title */
+
+$siteDesc = 'Post funnies!';
+/* site description (leave blank if none) */
 ?>
 <title><?php echo $siteTitle; ?> </title>
 
@@ -10,6 +14,8 @@ $siteTitle = 'PHP4chan';
     <body>
 
       <center>      <h1><?php echo $siteTitle; ?> </h1>
+                <desc><?php echo $siteDesc; ?></desc><br><br>
+
 
 
             <form action="shout.php" method="post" enctype="multipart/form-data">
