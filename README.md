@@ -1,5 +1,9 @@
 # php4chan
  An imageboard similar to 4chan to practice PHP 
+ 
+ ## Screenshot
+ ![image](https://raw.githubusercontent.com/Magallanesmapping321/php4chan/main/screenshit.PNG)
+
 
 ## Origin
  I wanted to learn PHP, so what better way to learn than to make an imageboard.\
