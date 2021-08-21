@@ -6,7 +6,7 @@
  - [ ] Banners
  - [ ] .jfif Support
  - [ ]  ```database```
- - [ ]  Torrent Support (for a /t/ - Torrents board)
+ - [ ]  Torrent and flash Support (for a /t/ - Torrents and & /f/ - Flash board)
  
  ## Screenshot
  ![image](https://raw.githubusercontent.com/Magallanesmapping321/php4chan/main/screenshit.PNG)
