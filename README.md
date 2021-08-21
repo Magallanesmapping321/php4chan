@@ -1,6 +1,12 @@
 # php4chan
  An imageboard similar to 4chan to practice PHP 
  
+ ## 2 Do list
+ - [ ] Replies
+ - [ ] Banners
+ - [ ] .jfif Support
+ - [ ]  ```database```
+ 
  ## Screenshot
  ![image](https://raw.githubusercontent.com/Magallanesmapping321/php4chan/main/screenshit.PNG)
 
