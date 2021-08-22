@@ -7,6 +7,10 @@
  - [ ] .jfif Support
  - [ ]  ```database```
  - [ ]  Torrent and flash Support (for a /t/ - Torrents and & /f/ - Flash board)
+ - [ ]  Improved Security
+ - [ ]  Board and thread structure
+ - [ ]  Better Visuals
+ - [x]  A bit of HTML and CSS
  
  ## Screenshot
  ![image](https://raw.githubusercontent.com/Magallanesmapping321/php4chan/main/screenshit.PNG)
@@ -21,11 +25,6 @@
  * Changed some of the CSS
  * Added newline breaks
  * Added image functionality
- 
- Here is what I plan on adding:
- * Improved security
- * Board/thread structure
- * Better visuals and HTML/CSS
 
 ## Run
  After cloning, in the main dir,\
