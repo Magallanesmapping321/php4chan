@@ -23,12 +23,12 @@ $brdTitle = 'PHP4chan';
                     </tr>
                                             <td>E-Mail:</td>
                         <td>
-                            <input type="text" name="name" value="">
+                            <input type="text" name="email" value="">
                         </td>
                     </tr>
                                                                 <td>Subject:</td>
                         <td>
-                            <input type="text" name="name" value="">
+                            <input type="text" name="subj" value="">
                                                         <input type="submit" value="Post">
 
                         </td>
@@ -47,7 +47,7 @@ $brdTitle = 'PHP4chan';
                     </tr>
                                                                 <td>Password:</td>
                         <td>
-                            <input type="password" name="name" value="">
+                            <input type="password" name="pass" value="">
                         </td>
                     </tr>
                 </table>
