@@ -18,7 +18,7 @@ $brdTitle = 'PHP4chan';
                     <tr>
                         <td>Name:</td>
                         <td>
-                            <input type="text" name="name" value="Anonymous">
+                            <input type="text" name="name" value="Anonymous" disabled>
                         </td>
                     </tr>
                                             <td>E-Mail:</td>
